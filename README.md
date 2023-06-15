@@ -6,7 +6,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 Visual Studio Code
 
-Para la instalación de Visual Studio Code, es 
+Para la instalación de Visual Studio Code, es: 
 
 Paso 1: Ve a la página de Microsoft Visual Studio Code en Academic Software y haz clic en el botón 'Descargar Visual Studio Code' para descargar el archivo de instalación.
 Paso 2: Abre el archivo de instalación .exe en tu carpeta de descargas para iniciar la instalación.
@@ -45,7 +45,7 @@ En la ventana del Explorador de archivos, abra la carpeta Depuración. Esta carp
 Para abrir una ventana del símbolo del sistema, presione Windows + R y se abrirá el cuadro de diálogo Ejecutar. Escriba cmd.exe en el cuadro de texto Abrir y luego elija Aceptar para ejecutar una ventana del símbolo del sistema.
 En la ventana del símbolo del sistema, haga clic con el botón derecho para pegar la ruta de acceso a la aplicación en el símbolo del sistema. Presione Entrar para ejecutar el código.
 
-Y las pruebas de estilo de codificación ⌨️
+Las pruebas de estilo de codificación 
 
 El texto que se copia de otras aplicaciones mantiene la codificación original y los caracteres de salto de línea. Por ejemplo, cuando copia texto desde el Bloc de notas y lo pega en un archivo de texto en Visual Studio, el texto tiene la misma configuración que tenía en el Bloc de notas.
 Cuando abre un archivo que tiene caracteres de salto de línea diferentes, puede que vea un cuadro de diálogo que le pregunta si los caracteres de salto de línea incoherentes deben normalizarse y qué tipo de salto de línea quiere.
