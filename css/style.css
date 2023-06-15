@@ -244,7 +244,7 @@ button {
   border-radius: 0.5rem;
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .button {
     display: inline-block;
     background-color: #ff3636;
@@ -265,7 +265,7 @@ button {
 }
 
 
-/*Inicio variety*/
+/*Variety*/
 .varietycontainer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 2rem;
@@ -292,7 +292,7 @@ button {
 }
 
 
-/*Inicio Product*/
+/*Product*/
 
 .productcontainer {
     grid-template-columns: repeat(2, 1fr);
@@ -357,7 +357,7 @@ button {
 }
 
 
-/*Inicio Descuento*/
+/*Discount*/
 .discountcontainer {
     background: #320000;
     border-radius: 1rem;
@@ -379,7 +379,7 @@ button {
     justify-self: center;
 }
 
-/*Inicio New*/
+/*New*/
 .newcontainer {
     padding-top: 1rem;
 }
@@ -458,7 +458,8 @@ button {
 }
 
 
-/*Inicio About*/
+/*About*/
+
 .aboutcontainer {
     row-gap: 2rem;
 }
@@ -606,6 +607,7 @@ button {
 }
 
 /*Noticias*/
+
 .newsld {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -641,7 +643,7 @@ button {
     color: #fff;
 }
 
-/*FOOTER*/
+/*Footer*/
 
 .footer {
     position: relative;
@@ -753,7 +755,7 @@ button {
     border-radius: .5rem;
 }
 
-/*RESPONSIVE */
+/*Responsive */
 
 
 @media (max-width: 320px) {
