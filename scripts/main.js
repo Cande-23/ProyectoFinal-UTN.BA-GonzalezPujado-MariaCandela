@@ -56,7 +56,7 @@ function scrollActive() {
         sectionTop = current.offsetTop -58,
         sectionId = current.getAttribute('id')
 
-        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        if(scrollY > sectionTop & scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.navM a[href*='+ sectionId + ']').classList.add('active-link')
         }
         else {
