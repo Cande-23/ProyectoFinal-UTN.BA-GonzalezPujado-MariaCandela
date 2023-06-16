@@ -6,7 +6,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 Visual Studio Code
 
-Para la instalación de Visual Studio Code, es: 
+Para la instalación de Visual Studio Code, hay que seguir los siguientes pasos: 
 
 Paso 1: Ve a la página de Microsoft Visual Studio Code en Academic Software y haz clic en el botón 'Descargar Visual Studio Code' para descargar el archivo de instalación.
 Paso 2: Abre el archivo de instalación .exe en tu carpeta de descargas para iniciar la instalación.
