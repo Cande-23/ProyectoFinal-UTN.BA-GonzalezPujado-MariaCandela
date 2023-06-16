@@ -28,16 +28,14 @@ Empezaremos creando un archivo y agregándole código.
 
 Para finalizar, como obtener datos del sistema o como usarlos para una pequeña demo.
 
-En .NET, tiene tres opciones para modelar y manipular datos en la memoria después de recuperarlos de un origen de datos:
-Entity Framework. Puede usarla para programar con datos relacionales como objetos .NET de primera clase. Para las nuevas aplicaciones, debe ser la primera opción predeterminada cuando se requiere un modelo. Requiere compatibilidad personalizada con el proveedor de ADO.NET subyacente.
-LINQ to SQL. Un asignador relacional de objetos de generación anterior. Funciona bien para escenarios menos complejos, pero ya no está en desarrollo activo.
 Conjuntos de datos. La más antigua de las tres tecnologías de modelado. Está diseñada principalmente para el desarrollo rápido de aplicaciones de "formularios sobre datos" en las que no procesa grandes cantidades de datos ni realiza consultas o transformaciones complejas. 
 
 No es necesario usar ninguna de estas tecnologías. En algunos escenarios, especialmente cuando el rendimiento es crítico, simplemente puede usar un objeto DataReader para leer de la base de datos y copiar los valores que necesita en un objeto de colección, como List<T>.
 
-Las pruebas automatizadas de IU (CUIT) controlan la aplicación a través de su interfaz de usuario. Estas pruebas incluyen unas pruebas funcionales de los controles de la interfaz de usuario. Permiten comprobar si toda la aplicación, incluida la interfaz de usuario, funciona correctamente. Las pruebas automatizadas de IU son útiles donde haya validación u otra lógica en la interfaz de usuario, por ejemplo, en una página web. También se suelen usar para automatizar una prueba manual existente.
+Estas pruebas incluyen unas pruebas funcionales de los controles de la interfaz de usuario. Permiten comprobar si toda la aplicación, incluida la interfaz de usuario, funciona correctamente. Las pruebas automatizadas de IU son útiles donde haya validación u otra lógica en la interfaz de usuario, por ejemplo, en una página web. También se suelen usar para automatizar una prueba manual existente.
 La creación de una prueba automatizada de IU en Visual Studio es sencilla. Basta con efectuar la prueba manualmente mientras el generador de pruebas automatizadas de IU se ejecuta en segundo plano. También puede especificar qué valores deben aparecer en campos concretos. El generador de pruebas automatizadas de IU registra las acciones y genera código a partir de estas. Después de crear la prueba, puede editarla en un editor especializado que permita modificar la secuencia de acciones.
-El editor y el Generador de pruebas automatizadas de IU especializados facilitan la creación y la edición de pruebas automatizadas de IU, aunque sus principales habilidades se centren en las pruebas en lugar de en la codificación. Pero si es un desarrollador y desea extender la prueba de forma más avanzada, el código se estructura para que sea fácil de copiar y adaptar. 
+
+Si es un desarrollador y desea extender la prueba de forma más avanzada, el código se estructura para que sea fácil de copiar y adaptar. 
 Por ejemplo, puede registrar una prueba para comprar algo en un sitio web y, a continuación, editar el código generado para agregar un bucle que compre muchos elementos.
 
 Cuando la aplicación se compila con Visual Studio, se puede ejecutar desde cualquier ventana de comandos. Aquí se muestra cómo buscar y ejecutar la aplicación nueva en una ventana del símbolo del sistema.
@@ -58,10 +56,9 @@ Cuando se necesita realizar algún pequeño cambio en la web, como modificar un 
 
 Deploy mixto, se produce cuando el deploy se encuentra automatizado, pero aun así requiere de alguna pequeña acción manual para que se produzca (como ejecutar un código o dar un permiso de acceso). 
 
-Deploy continuo, se trata del deploy que más se utiliza en la actualidad y se realiza de forma totalmente automatizada. Este concepto está íntimamente relacionado con nuevas metodologías de desarrollo de software como DevOps y entrega continua.
 El deploy continuo permite pasar a producción los cambios realizados por varios programadores, sin que se produzcan problemas o errores en el proceso.
 
-Construido con herramientas que utilicé para crear mi proyecto
+Construido con herramientas que utilicé para crear mi proyecto:
 
 Visual Studio Code
 
@@ -69,6 +66,4 @@ Autor
   
 María Candela Gonzalez Pujado
   
-Expresiones de Gratitud 
- 
-Gracias a todos por leer y ver este proyecto en el que he pasado por todos los estados emocionales. Gracias también al profesor Gerson que estuvo para nosotros en este cursado.
+Gracias a todos por leer y ver este proyecto en el que he pasado por todos los estados emocionales. Gracias también al profesor Gerson que estuvo para nosotros en este cursado. Espero que les guste
