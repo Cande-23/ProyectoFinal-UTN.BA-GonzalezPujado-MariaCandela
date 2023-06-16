@@ -23,8 +23,8 @@ Por ejemplo:
 Empezaremos creando un archivo y agregándole código.
 1-Abra Visual Studio. Seleccione la tecla Esc o elija Continuar sin código en la ventana de inicio para abrir el entorno de desarrollo.
 2-En el menú Archivo de la barra de menús, elija Nuevo>Archivo o seleccione las teclas CTRL+N.
-3- En el cuadro de diálogo Nuevo archivo, en la categoría General, elija Clase de Visual C# y, después, elija Abrir.
-4-Se abre un archivo nuevo en el editor con el esqueleto de una clase de C#.
+3- En el cuadro de diálogo Nuevo archivo, en la categoría General, elija Clase de Visual y, después, elija Abrir.
+4-Se abre un archivo nuevo en el editor con el esqueleto de una clase.
 
 Para finalizar, como obtener datos del sistema o como usarlos para una pequeña demo.
 
@@ -41,9 +41,7 @@ El editor y el Generador de pruebas automatizadas de IU especializados facilitan
 Por ejemplo, puede registrar una prueba para comprar algo en un sitio web y, a continuación, editar el código generado para agregar un bucle que compre muchos elementos.
 
 Cuando la aplicación se compila con Visual Studio, se puede ejecutar desde cualquier ventana de comandos. Aquí se muestra cómo buscar y ejecutar la aplicación nueva en una ventana del símbolo del sistema.
-En la ventana del Explorador de archivos, abra la carpeta Depuración. Esta carpeta contiene la aplicación, el archivo HelloWorld.exe y otro par de archivos de depuración. Mantenga presionada la tecla Mayús y haga clic con el botón derecho en HelloWorld.exe para abrir el menú contextual. Elija Copiar como ruta de acceso para copiar en el portapapeles la ruta de acceso a la aplicación.
-Para abrir una ventana del símbolo del sistema, presione Windows + R y se abrirá el cuadro de diálogo Ejecutar. Escriba cmd.exe en el cuadro de texto Abrir y luego elija Aceptar para ejecutar una ventana del símbolo del sistema.
-En la ventana del símbolo del sistema, haga clic con el botón derecho para pegar la ruta de acceso a la aplicación en el símbolo del sistema. Presione Entrar para ejecutar el código.
+En la ventana del Explorador de archivos, abra la carpeta Depuración.
 
 Las pruebas de estilo de codificación 
 
